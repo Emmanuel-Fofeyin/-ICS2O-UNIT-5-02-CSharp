@@ -5,23 +5,19 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int integer;
+        int radius;
+        double pi = Math.PI;
+        double area;
 
-        Console.WriteLine("Please enter an integer");
+        Console.WriteLine("Please enter the radius of the circle");
         Console.WriteLine("");
 
-        Console.Write("integer: ");
-        integer = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine(""); 
-    
-        if (integer >= 0)
-        {
-      Console.WriteLine("Your number is positive");
-        } 
-        else
-        {
-      Console.WriteLine("Your number is negative");
-        }
+        Console.Write("radius: ");
+        radius = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("");
+        area = (pi * radius) * radius;
+
+        Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
 
         Console.WriteLine("\nDone.");
     }
