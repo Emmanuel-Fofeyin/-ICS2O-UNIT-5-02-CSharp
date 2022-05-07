@@ -13,7 +13,7 @@ class Program
         Console.Write("integer: ");
         integer = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-
+      
         if (integer >= 0)
         {
         Console.WriteLine("Your number is positive");
