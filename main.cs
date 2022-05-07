@@ -12,15 +12,15 @@ class Program
 
         Console.Write("integer: ");
         integer = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("");
-      
+        Console.WriteLine(""); 
+    
         if (integer >= 0)
         {
-        Console.WriteLine("Your number is positive");
+      Console.WriteLine("Your number is positive");
         } 
-        else 
+        else
         {
-        Console.WriteLine("Your number is negative");
+      Console.WriteLine("Your number is negative");
         }
 
         Console.WriteLine("\nDone.");
